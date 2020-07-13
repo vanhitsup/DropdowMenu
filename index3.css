@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    width: 1000px;
+    margin: 50px auto;
+}
+ul li{
+    background-color: darkcyan;
+    float:left;
+    height: 30px;
+    width: 120px;
+    border: 1px solid white;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: coral;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover li{
+    display: block;
+}
